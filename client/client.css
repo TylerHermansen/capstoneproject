@@ -1,0 +1,59 @@
+body{ 
+    background-color: pink;
+}
+
+header {
+    display: block;
+    color: purple;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 100px;
+    padding: 0;
+    min-width: none;
+    text-align: center;
+}
+form {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+div {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    color: darkblue;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#goal-insert {
+    background-color: lightskyblue;
+    border-color: darkblue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    width: 250px;
+    height: 25px;
+}
+#goal-add{
+    background-color: darkblue;
+    color: lightskyblue;
+    border-color: lightskyblue;
+    border-radius: 10px;
+    height: 25px;
+    width: 95px;
+}
+button{
+    background-color: darkblue;
+    border: 1px solid black;
+    font-style: normal;
+    border-radius: 12px;
+    padding: 1px 5px;
+    font-weight: bold;
+    color: lightskyblue;
+    margin-left: 10px;
+    vertical-align: auto;
+}

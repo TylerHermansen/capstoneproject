@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="client.css">
+
+  
+</head>
+    
+<body>
+    <header>Goal Tracker</header>
+
+    <div id='insert-div'>
+        <form>
+            <input id='goal-insert' type='text' placeholder="enter goal"/>
+            <button id='goal-add' type='submit'>Create goal</button>
+        </form>
+    </div>
+
+    <div id='goal-container'>
+        <div>
+            <h2 class='goal-list'>Goals!</h2>
+            <ul class='goal-div' id='goal'></ul>
+        </div>
+    <!-- <div id='progress container'>
+            <h2 class='progress-list'>Goals in progress</h2>
+            <ul class='goal-div2' id='progress'></ul>
+    </div>
+    <div id='goal container'>
+            <h2 class='completed-list'>Goals Completed</h2>
+            <ul class='goal-div3' id='completed'></ul>
+    </div> -->
+</div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src='./client.js'></script>
+</body>
+</html>
